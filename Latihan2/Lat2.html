@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Latihan1</title>
+        <style>
+            html {
+                border-top: 10px solid #05a6f0;
+
+            }
+            body {
+                font-family: Arial;
+                margin-left: 150px;
+                margin-right: 150px;
+
+            }
+            .title {
+                color: #238de4;
+                font-style:italic;
+                margin-left: 20px;
+            }
+            header {
+                background-color:rgb(223, 223, 223);
+                height: 90px;
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                align-items: center;
+            }
+            .nav_text {
+                color: #238de4;
+                text-decoration: none;
+                font-size: 15px;
+                margin-right: 20px;
+                align-items: center;
+            }
+            .nav_text:hover {
+                color: #1e90ff;
+            }
+            .blog_title {
+                color:#1e90ff
+            }
+
+            .content{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: center;
+            }
+            .leftcontent {
+                width: 70%;
+            }
+            .rightcontent {
+                width: 30%;
+            }
+            .related_post{
+                background-color:rgb(223, 223, 223);
+                margin:20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+                border-top: 5px solid #05a6f0;
+                border-bottom: 5px solid #05a6f0;
+                padding-left: 10px;
+                padding-right: 10px;
+                height:300px
+            }
+
+            .related_post a{
+                text-decoration: none;
+                color: #238de4;
+                margin-top: 10px;
+                margin-bottom: 0px;
+            }
+            .related_title{
+                font-size: 20px;
+                font-weight: bold;
+                color: #238de4;
+
+            }
+        </style>
+    </head>
+    <header>
+        <h2 class="title">📘 THE CODE MAGAZINE</h2>
+        <nav>
+            <a href="Lat1.html" class="nav_text">Blog</a> 
+            <a href="Lat2.html" class="nav_text">Challenges</a> 
+            <a href="Lat3.html" class="nav_text">Flexbox</a>
+            <a href="Lat4.html" class="nav_text">CSS Grid</a>
+        </nav>
+    </header>
+    <body>
+        <div class="content">
+            <div class="leftcontent">
+                <h1 class="blog_title">The Basic Language of the Web : HTML</h1>
+                <img src="webblogimage.jpg" width="900px">
+                <p>All modern websites and web applications are built using three fundamental technologies: HTML, CSS and JavaScript. These are the languages of the web. <br>
+                In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
+            </div>
+            <div class="rightcontent">
+                <div class="related_post">
+                    <p class="related_title">RELATED POSTS</p>
+                    <a href="">How to learn Web Development</a> <br><br>
+                    <a href="">The unknown power of CSS</a><br><br>
+                    <a href="">Why Java Script is awesome</a><br><br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
