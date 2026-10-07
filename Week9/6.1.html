@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <button id="clickButton">Click</button>
+    <p id="changeColor">aaaaaaa</p>
+    <script>
+        const button = document.getElementById("clickButton");
+        const text = document.getElementById("changeColor");
+
+        button.addEventListener("click", () => {
+            text.style.color = "red";
+        });
+    </script>
+</body>
+</html>
